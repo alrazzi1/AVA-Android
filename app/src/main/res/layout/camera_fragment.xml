@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    android:id="@+id/cameraViewContainer"
+    >
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--        android:id="@+id/cameraViewContainer"-->
+<!--    android:layout_height="match_parent">-->
+
+        <!-- activity_main.xml -->
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent">-->
+    <!--            android:onClick="connect_ble"-->
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="320dp"-->
+<!--        android:id="@+id/cameraViewContainer"-->
+<!--        android:layout_height="240dp">-->
+
+    <com.jiangdg.ausbc.widget.AspectRatioTextureView
+        android:id="@+id/tvCameraRender"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"/>
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/button"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+<!--            app:layout_constraintStart_toStartOf="@+id/button"-->
+
+
+<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+</LinearLayout>
