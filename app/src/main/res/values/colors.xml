@@ -8,4 +8,11 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="orange">#FFA500</color>
+    <color name="green">#FF137004</color>
+    <color name="red">#FFb81c06</color>
+    <color name="yellow">#FFFFB200</color>
+    <color name="primary">#EF5A6F</color>
+    <color name="secondary">#FFF1DB</color>
+    <color name="tertiary">#D4BDAC</color>
+    <color name="quarternary">#536493</color>
 </resources>
