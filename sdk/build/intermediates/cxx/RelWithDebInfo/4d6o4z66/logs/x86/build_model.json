@@ -6,9 +6,9 @@
     "deprecated": false,
     "default": true
   },
-  "cxxBuildFolder": "C:\\Users\\alruz\\AndroidStudioProjects\\CoulterGlassesDebug\\sdk\\.cxx\\Debug\\1m5z1b6n\\x86",
-  "soFolder": "C:\\Users\\alruz\\AndroidStudioProjects\\CoulterGlassesDebug\\sdk\\build\\intermediates\\cxx\\Debug\\1m5z1b6n\\obj\\x86",
-  "soRepublishFolder": "C:\\Users\\alruz\\AndroidStudioProjects\\CoulterGlassesDebug\\sdk\\build\\intermediates\\cmake\\debug\\obj\\x86",
+  "cxxBuildFolder": "C:\\Users\\alruz\\AndroidStudioProjects\\CoulterGlassesDebug\\sdk\\.cxx\\RelWithDebInfo\\4d6o4z66\\x86",
+  "soFolder": "C:\\Users\\alruz\\AndroidStudioProjects\\CoulterGlassesDebug\\sdk\\build\\intermediates\\cxx\\RelWithDebInfo\\4d6o4z66\\obj\\x86",
+  "soRepublishFolder": "C:\\Users\\alruz\\AndroidStudioProjects\\CoulterGlassesDebug\\sdk\\build\\intermediates\\cmake\\release\\obj\\x86",
   "abiPlatformVersion": 19,
   "cmake": {
     "effectiveConfiguration": {
@@ -22,8 +22,8 @@
     ],
     "cFlagsList": [],
     "cppFlagsList": [],
-    "variantName": "debug",
-    "isDebuggableEnabled": true,
+    "variantName": "release",
+    "isDebuggableEnabled": false,
     "validAbiList": [
       "ARMEABI_V7A",
       "ARM64_V8A",
@@ -142,15 +142,15 @@
     "prefabPackages": [],
     "prefabPackageConfigurations": [],
     "stlType": "c++_shared",
-    "optimizationTag": "Debug"
+    "optimizationTag": "RelWithDebInfo"
   },
   "buildSettings": {
     "environmentVariables": []
   },
-  "prefabFolder": "C:\\Users\\alruz\\AndroidStudioProjects\\CoulterGlassesDebug\\sdk\\.cxx\\Debug\\1m5z1b6n\\prefab\\x86",
+  "prefabFolder": "C:\\Users\\alruz\\AndroidStudioProjects\\CoulterGlassesDebug\\sdk\\.cxx\\RelWithDebInfo\\4d6o4z66\\prefab\\x86",
   "isActiveAbi": true,
-  "fullConfigurationHash": "1m5z1b6n1q1z6d4g1h18172122u6l6n4s6m6o95y64476a2l71c5n6z2z263y",
-  "fullConfigurationHashKey": "# Values used to calculate the hash in this folder name.\n# Should not depend on the absolute path of the project itself.\n#   - AGP: 8.0.0.\n#   - $NDK is the path to NDK 25.1.8937393.\n#   - $PROJECT is the path to the parent folder of the root Gradle build file.\n#   - $ABI is the ABI to be built with. The specific value doesn\u0027t contribute to the value of the hash.\n#   - $HASH is the hash value computed from this text.\n#   - $CMAKE is the path to CMake 3.22.1.\n#   - $NINJA is the path to Ninja.\n-H$PROJECT/sdk/libcxx_helper\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d19\n-DANDROID_PLATFORM\u003dandroid-19\n-DANDROID_ABI\u003d$ABI\n-DCMAKE_ANDROID_ARCH_ABI\u003d$ABI\n-DANDROID_NDK\u003d$NDK\n-DCMAKE_ANDROID_NDK\u003d$NDK\n-DCMAKE_TOOLCHAIN_FILE\u003d$NDK/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d$NINJA\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d$PROJECT/sdk/build/intermediates/cxx/Debug/$HASH/obj/$ABI\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d$PROJECT/sdk/build/intermediates/cxx/Debug/$HASH/obj/$ABI\n-DCMAKE_BUILD_TYPE\u003dDebug\n-B$PROJECT/sdk/.cxx/Debug/$HASH/$ABI\n-GNinja\n-DANDROID_STL\u003dc++_shared",
+  "fullConfigurationHash": "4d6o4z66115f67s41554r3a5b3c5x5a5g6d2le2j5t4d155wx6i4y4m6q644g",
+  "fullConfigurationHashKey": "# Values used to calculate the hash in this folder name.\n# Should not depend on the absolute path of the project itself.\n#   - AGP: 8.0.0.\n#   - $NDK is the path to NDK 25.1.8937393.\n#   - $PROJECT is the path to the parent folder of the root Gradle build file.\n#   - $ABI is the ABI to be built with. The specific value doesn\u0027t contribute to the value of the hash.\n#   - $HASH is the hash value computed from this text.\n#   - $CMAKE is the path to CMake 3.22.1.\n#   - $NINJA is the path to Ninja.\n-H$PROJECT/sdk/libcxx_helper\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d19\n-DANDROID_PLATFORM\u003dandroid-19\n-DANDROID_ABI\u003d$ABI\n-DCMAKE_ANDROID_ARCH_ABI\u003d$ABI\n-DANDROID_NDK\u003d$NDK\n-DCMAKE_ANDROID_NDK\u003d$NDK\n-DCMAKE_TOOLCHAIN_FILE\u003d$NDK/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d$NINJA\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d$PROJECT/sdk/build/intermediates/cxx/RelWithDebInfo/$HASH/obj/$ABI\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d$PROJECT/sdk/build/intermediates/cxx/RelWithDebInfo/$HASH/obj/$ABI\n-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\n-B$PROJECT/sdk/.cxx/RelWithDebInfo/$HASH/$ABI\n-GNinja\n-DANDROID_STL\u003dc++_shared",
   "configurationArguments": [
     "-HC:\\Users\\alruz\\AndroidStudioProjects\\CoulterGlassesDebug\\sdk\\libcxx_helper",
     "-DCMAKE_SYSTEM_NAME\u003dAndroid",
@@ -163,13 +163,13 @@
     "-DCMAKE_ANDROID_NDK\u003dC:\\Users\\alruz\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393",
     "-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\alruz\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\build\\cmake\\android.toolchain.cmake",
     "-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\alruz\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
-    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\Users\\alruz\\AndroidStudioProjects\\CoulterGlassesDebug\\sdk\\build\\intermediates\\cxx\\Debug\\1m5z1b6n\\obj\\x86",
-    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\Users\\alruz\\AndroidStudioProjects\\CoulterGlassesDebug\\sdk\\build\\intermediates\\cxx\\Debug\\1m5z1b6n\\obj\\x86",
-    "-DCMAKE_BUILD_TYPE\u003dDebug",
-    "-BC:\\Users\\alruz\\AndroidStudioProjects\\CoulterGlassesDebug\\sdk\\.cxx\\Debug\\1m5z1b6n\\x86",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\Users\\alruz\\AndroidStudioProjects\\CoulterGlassesDebug\\sdk\\build\\intermediates\\cxx\\RelWithDebInfo\\4d6o4z66\\obj\\x86",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\Users\\alruz\\AndroidStudioProjects\\CoulterGlassesDebug\\sdk\\build\\intermediates\\cxx\\RelWithDebInfo\\4d6o4z66\\obj\\x86",
+    "-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo",
+    "-BC:\\Users\\alruz\\AndroidStudioProjects\\CoulterGlassesDebug\\sdk\\.cxx\\RelWithDebInfo\\4d6o4z66\\x86",
     "-GNinja",
     "-DANDROID_STL\u003dc++_shared"
   ],
   "stlLibraryFile": "C:\\Users\\alruz\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
-  "intermediatesParentFolder": "C:\\Users\\alruz\\AndroidStudioProjects\\CoulterGlassesDebug\\sdk\\build\\intermediates\\cxx\\Debug\\1m5z1b6n"
+  "intermediatesParentFolder": "C:\\Users\\alruz\\AndroidStudioProjects\\CoulterGlassesDebug\\sdk\\build\\intermediates\\cxx\\RelWithDebInfo\\4d6o4z66"
 }

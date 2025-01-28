@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.ausbctest"
+    namespace = "com.example.CoulterGlassesDebug"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.ausbctest"
+        applicationId = "com.example.CoulterGlassesDebug"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

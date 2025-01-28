@@ -226,7 +226,7 @@ void cleanup(apriltag_detector_t *td ,apriltag_family_t *tf,image_u8_t *img){
 
 // Function to create a Java Result object
 jobject createResultObject(JNIEnv *env, int id, int numDetections, jobject transformPacket, jdoubleArray center_pixels) {
-    jclass resultClass = (*env)->FindClass(env, "com/example/ausbctest/Result");
+    jclass resultClass = (*env)->FindClass(env, "com/example/CoulterGlassesDebug/Result");
     jmethodID resultConstructor = (*env)->GetMethodID(env, resultClass, "<init>",
                                                       "(IILcom/example/ausbctest/TransformPacket;[D)V");
     return (*env)->NewObject(env, resultClass, resultConstructor, id, numDetections, transformPacket, center_pixels);
@@ -234,7 +234,7 @@ jobject createResultObject(JNIEnv *env, int id, int numDetections, jobject trans
 
 jobject createEmptyResult(JNIEnv *env) {
     // Get the class reference
-    jclass resultClass = (*env)->FindClass(env, "com/example/ausbctest/Result");
+    jclass resultClass = (*env)->FindClass(env, "com/example/CoulterGlassesDebug/Result");
 
     // Get the method ID for the constructor with isTagDetected parameter
     jmethodID constructor = (*env)->GetMethodID(env, resultClass, "<init>", "(Z)V");
@@ -247,7 +247,7 @@ jobject createEmptyResult(JNIEnv *env) {
 }
 
 jobject apriltag_pose_t_to_transformPacket(JNIEnv *env, apriltag_pose_t pose_t){
-    jclass transformPacketClass = (*env)->FindClass(env, "com/example/ausbctest/TransformPacket");
+    jclass transformPacketClass = (*env)->FindClass(env, "com/example/CoulterGlassesDebug/TransformPacket");
     jmethodID transformPacketConstructor = (*env)->GetMethodID(env, transformPacketClass, "<init>", "(DDDDDDDDDDDD)V");
 
     // Access elements from the apriltag_pose_t struct

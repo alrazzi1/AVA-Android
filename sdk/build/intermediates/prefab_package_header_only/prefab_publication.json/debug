@@ -1,5 +1,5 @@
 {
-  "installationFolder": "C:\\Users\\alruz\\AndroidStudioProjects\\AUSBCTest\\sdk\\build\\intermediates\\prefab_package\\debug\\prefab",
+  "installationFolder": "C:\\Users\\alruz\\AndroidStudioProjects\\CoulterGlassesDebug\\sdk\\build\\intermediates\\prefab_package\\debug\\prefab",
   "gradlePath": ":sdk",
   "packageInfo": {
     "packageName": "sdk",
@@ -8,7 +8,7 @@
     "modules": [
       {
         "moduleName": "opencv_jni_shared",
-        "moduleHeaders": "C:\\Users\\alruz\\AndroidStudioProjects\\AUSBCTest\\sdk\\native\\jni\\include",
+        "moduleHeaders": "C:\\Users\\alruz\\AndroidStudioProjects\\CoulterGlassesDebug\\sdk\\native\\jni\\include",
         "moduleExportLibraries": [],
         "abis": []
       }

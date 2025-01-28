@@ -15,7 +15,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "AUSBC Test"
+rootProject.name = "CoulterGlassesDebug"
 include(":app")
 include(":sdk")
 //include(":libausbc")
