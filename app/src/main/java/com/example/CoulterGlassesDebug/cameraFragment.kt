@@ -150,7 +150,7 @@ companion object{
             mViewBinding = CameraFragmentBinding.inflate(inflater, container, false)
         }
         getCameraView()?.setAspectRatio(frameDimensions?.width!!, frameDimensions?.height!!);//320,240
-
+        Log.d(LOG_TAG,"We are requesting analysis callback")
         addPreviewDataCallBack(analysisCallBack);
         return mViewBinding?.root
     }

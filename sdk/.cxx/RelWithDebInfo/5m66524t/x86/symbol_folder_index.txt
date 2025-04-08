@@ -1,0 +1,1 @@
+C:\Users\alruz\AndroidStudioProjects\AUSBCTest\sdk\build\intermediates\cxx\RelWithDebInfo\5m66524t\obj\x86

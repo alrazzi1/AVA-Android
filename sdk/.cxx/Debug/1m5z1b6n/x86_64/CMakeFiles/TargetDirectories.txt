@@ -1,0 +1,3 @@
+C:/Users/alruz/AndroidStudioProjects/AUSBCTest/sdk/.cxx/Debug/1m5z1b6n/x86_64/CMakeFiles/opencv_jni_shared.dir
+C:/Users/alruz/AndroidStudioProjects/AUSBCTest/sdk/.cxx/Debug/1m5z1b6n/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/alruz/AndroidStudioProjects/AUSBCTest/sdk/.cxx/Debug/1m5z1b6n/x86_64/CMakeFiles/rebuild_cache.dir
